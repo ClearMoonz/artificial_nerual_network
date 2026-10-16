@@ -2,10 +2,10 @@
 
 人工神经网络课程实验：批量反向传播训练与优化算法可视化。
 
-| 子项目 | 原目录 | 内容 | 运行入口 |
-| --- | --- | --- | --- |
-| [batch_backpropagation](batch_backpropagation/) | 4.5 | 三层前馈网络、批量 BP、单极性/双极性 sigmoid、XOR 验证 | `python exercise45.py` |
-| [optimization_visualizer](optimization_visualizer/) | 梯度下降 | 最速下降、牛顿法、Fletcher–Reeves 共轭梯度，二维/三维轨迹 | `python gradient_descent_visualizer/main.py` |
+| 子项目 | 内容 | 运行入口 |
+| --- | --- | --- |
+| [batch_backpropagation](batch_backpropagation/) | 三层前馈网络、批量 BP、单极性/双极性 sigmoid、XOR 验证 | `python exercise45.py` |
+| [optimization_visualizer](optimization_visualizer/) | 最速下降、牛顿法、Fletcher–Reeves 共轭梯度，二维/三维轨迹 | `python gradient_descent_visualizer/main.py` |
 
 ## 安装与运行
 
