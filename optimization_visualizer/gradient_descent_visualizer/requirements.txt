@@ -1,0 +1,4 @@
+numpy>=1.26
+matplotlib>=3.8
+PyQt6==6.9.1
+PyQt6-Qt6==6.9.2

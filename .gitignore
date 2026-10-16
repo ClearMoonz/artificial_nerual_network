@@ -1,0 +1,20 @@
+# Local environments and installed dependencies
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.deps/
+**/software/runtime/
+**/software/anaconda_runtime/
+**/software/deps/
+**/software/mplconfig/
+.idea/
+.vscode/
+.pytest_cache/
+tmp/
+.env
+.env.*
+!.env.example
+*.log
+Thumbs.db
+.DS_Store

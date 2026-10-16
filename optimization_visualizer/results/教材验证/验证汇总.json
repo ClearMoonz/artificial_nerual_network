@@ -1,0 +1,291 @@
+[
+  {
+    "case": "A_alpha_0.01",
+    "summaries": [
+      {
+        "algorithm": "sd",
+        "name": "最速下降法",
+        "steps": 684,
+        "status": "已到达极小点",
+        "x": [
+          4.984318406680314e-07,
+          6.22949684443598e-207
+        ],
+        "f": 2.484342997917219e-13,
+        "gradient_norm": 9.968636813360629e-07,
+        "counts": {
+          "value": 685,
+          "gradient": 685,
+          "hessian": 1
+        },
+        "cpu_ms": 28.18139991723001
+      }
+    ]
+  },
+  {
+    "case": "A_alpha_0.035",
+    "summaries": [
+      {
+        "algorithm": "sd",
+        "name": "最速下降法",
+        "steps": 191,
+        "status": "已到达极小点",
+        "x": [
+          4.777637315982638e-07,
+          -6.849696234765075e-25
+        ],
+        "f": 2.282581832306978e-13,
+        "gradient_norm": 9.555274631965275e-07,
+        "counts": {
+          "value": 192,
+          "gradient": 192,
+          "hessian": 1
+        },
+        "cpu_ms": 7.372099906206131
+      }
+    ]
+  },
+  {
+    "case": "A_alpha_0.039",
+    "summaries": [
+      {
+        "algorithm": "sd",
+        "name": "最速下降法",
+        "steps": 333,
+        "status": "已到达极小点",
+        "x": [
+          9.002574316987297e-13,
+          -1.9095479379397913e-08
+        ],
+        "f": 9.115933319035736e-15,
+        "gradient_norm": 9.547739689715933e-07,
+        "counts": {
+          "value": 334,
+          "gradient": 334,
+          "hessian": 1
+        },
+        "cpu_ms": 15.774399740621448
+      }
+    ]
+  },
+  {
+    "case": "A_alpha_0.04",
+    "summaries": [
+      {
+        "algorithm": "sd",
+        "name": "最速下降法",
+        "steps": 1000,
+        "status": "达到最大步数（梯度未达标）",
+        "x": [
+          3.067590258115809e-37,
+          0.5
+        ],
+        "f": 6.25,
+        "gradient_norm": 25.0,
+        "counts": {
+          "value": 1001,
+          "gradient": 1001,
+          "hessian": 0
+        },
+        "cpu_ms": 43.14929980318993
+      }
+    ]
+  },
+  {
+    "case": "A_alpha_0.041",
+    "summaries": [
+      {
+        "algorithm": "sd",
+        "name": "最速下降法",
+        "steps": 297,
+        "status": "坐标越界，保护停止（可能发散）",
+        "x": [
+          4.605176937870966e-12,
+          -982181.6774009074
+        ],
+        "f": 24117021185551.504,
+        "gradient_norm": 49109083.87004537,
+        "counts": {
+          "value": 298,
+          "gradient": 298,
+          "hessian": 0
+        },
+        "cpu_ms": 13.92450020648539
+      }
+    ]
+  },
+  {
+    "case": "A_newton",
+    "summaries": [
+      {
+        "algorithm": "newton",
+        "name": "牛顿法",
+        "steps": 1,
+        "status": "已到达极小点",
+        "x": [
+          0.0,
+          0.0
+        ],
+        "f": 0.0,
+        "gradient_norm": 0.0,
+        "counts": {
+          "value": 2,
+          "gradient": 2,
+          "hessian": 2
+        },
+        "cpu_ms": 0.43340004049241543
+      }
+    ]
+  },
+  {
+    "case": "B_comparison",
+    "summaries": [
+      {
+        "algorithm": "sd",
+        "name": "最速下降法",
+        "steps": 19,
+        "status": "已到达极小点",
+        "x": [
+          2.3638599680875838e-07,
+          -3.636707643211669e-07
+        ],
+        "f": 1.0216808817494996e-13,
+        "gradient_norm": 5.029318169215024e-07,
+        "counts": {
+          "value": 20,
+          "gradient": 20,
+          "hessian": 20
+        },
+        "cpu_ms": 1.4096001395955682
+      },
+      {
+        "algorithm": "newton",
+        "name": "牛顿法",
+        "steps": 1,
+        "status": "已到达极小点",
+        "x": [
+          0.0,
+          0.0
+        ],
+        "f": 0.0,
+        "gradient_norm": 0.0,
+        "counts": {
+          "value": 2,
+          "gradient": 2,
+          "hessian": 2
+        },
+        "cpu_ms": 0.10030006524175406
+      },
+      {
+        "algorithm": "cg",
+        "name": "共轭梯度法（FR）",
+        "steps": 2,
+        "status": "已到达极小点",
+        "x": [
+          2.7755575615628914e-17,
+          -5.551115123125783e-17
+        ],
+        "f": 2.311115933264683e-33,
+        "gradient_norm": 8.326672684688674e-17,
+        "counts": {
+          "value": 3,
+          "gradient": 3,
+          "hessian": 3
+        },
+        "cpu_ms": 0.16190006863325834
+      }
+    ]
+  },
+  {
+    "case": "C_figure_9_6",
+    "summaries": [
+      {
+        "algorithm": "newton",
+        "name": "牛顿法",
+        "steps": 4,
+        "status": "已到达局部极小点",
+        "x": [
+          0.553579958006259,
+          -0.553579958006259
+        ],
+        "f": 0.9438271147555466,
+        "gradient_norm": 6.713148034963911e-07,
+        "counts": {
+          "value": 5,
+          "gradient": 5,
+          "hessian": 5
+        },
+        "cpu_ms": 0.5207000067457557
+      }
+    ]
+  },
+  {
+    "case": "C_figure_9_7",
+    "summaries": [
+      {
+        "algorithm": "newton",
+        "name": "牛顿法",
+        "steps": 6,
+        "status": "已到达局部极小点",
+        "x": [
+          -0.4187827176419565,
+          0.4187827176419565
+        ],
+        "f": 2.9266582180811502,
+        "gradient_norm": 3.6865770929895035e-12,
+        "counts": {
+          "value": 7,
+          "gradient": 7,
+          "hessian": 7
+        },
+        "cpu_ms": 0.7584000704810023
+      }
+    ]
+  },
+  {
+    "case": "C_figure_9_8",
+    "summaries": [
+      {
+        "algorithm": "newton",
+        "name": "牛顿法",
+        "steps": 3,
+        "status": "已到达鞍点",
+        "x": [
+          -0.13479714992002326,
+          0.13479714992002326
+        ],
+        "f": 3.129514667163285,
+        "gradient_norm": 6.040853872479602e-07,
+        "counts": {
+          "value": 4,
+          "gradient": 4,
+          "hessian": 4
+        },
+        "cpu_ms": 0.3469999646767974
+      }
+    ]
+  },
+  {
+    "case": "C_figure_9_9",
+    "summaries": [
+      {
+        "algorithm": "newton",
+        "name": "牛顿法",
+        "steps": 5,
+        "status": "已到达局部极小点",
+        "x": [
+          -0.41878271983734877,
+          0.41878271983734877
+        ],
+        "f": 2.9266582180811502,
+        "gradient_norm": 2.74384704325529e-08,
+        "counts": {
+          "value": 6,
+          "gradient": 6,
+          "hessian": 6
+        },
+        "cpu_ms": 0.44180010445415974
+      }
+    ]
+  }
+]

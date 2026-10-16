@@ -1,0 +1,106 @@
+{
+  "objective": "elongated",
+  "formula": "F(x) = x₁² + 25x₂²",
+  "note": "CPU时间包含算法计算及驻点判断，不含播放等待、绘图或导出；调用次数为实际调用。",
+  "runs": [
+    {
+      "settings": {
+        "step_mode": "exact",
+        "learning_rate": 0.01,
+        "tolerance": 1e-06,
+        "max_steps": 1000,
+        "coordinate_limit": 1000000.0
+      },
+      "summary": {
+        "algorithm": "newton",
+        "name": "牛顿法",
+        "steps": 1,
+        "status": "已到达极小点",
+        "x": [
+          0.0,
+          0.0
+        ],
+        "f": 0.0,
+        "gradient_norm": 0.0,
+        "counts": {
+          "value": 2,
+          "gradient": 2,
+          "hessian": 2
+        },
+        "cpu_ms": 0.43340004049241543
+      },
+      "history": [
+        {
+          "k": 0,
+          "x": [
+            0.5,
+            0.5
+          ],
+          "f": 6.5,
+          "gradient": [
+            1.0,
+            25.0
+          ],
+          "norm": 25.019992006393608
+        },
+        {
+          "k": 1,
+          "x": [
+            0.0,
+            0.0
+          ],
+          "f": 0.0,
+          "gradient": [
+            0.0,
+            0.0
+          ],
+          "norm": 0.0
+        }
+      ],
+      "transitions": [
+        {
+          "k": 0,
+          "x_old": [
+            0.5,
+            0.5
+          ],
+          "f_old": 6.5,
+          "g_old": [
+            1.0,
+            25.0
+          ],
+          "direction": [
+            -0.5,
+            -0.5
+          ],
+          "alpha": 1.0,
+          "beta": null,
+          "x_new": [
+            0.0,
+            0.0
+          ],
+          "f_new": 0.0,
+          "gradient_new": [
+            0.0,
+            0.0
+          ],
+          "norm_new": 0.0,
+          "hessian": [
+            [
+              2.0,
+              0.0
+            ],
+            [
+              0.0,
+              50.0
+            ]
+          ],
+          "hessian_eigenvalues": [
+            2.0,
+            50.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "view": "3d",
+  "axes": [
+    "x1",
+    "x2",
+    "F(x1,x2)"
+  ],
+  "camera": [
+    28.0,
+    -62.0,
+    0.0
+  ],
+  "focus_valley": true,
+  "surface_high_region_hidden": true,
+  "bounds": [
+    -2,
+    2,
+    -2,
+    2
+  ],
+  "note": "仅切换可视化；三维点高度使用原始记录的函数值。聚焦谷底时隐藏F>12高处，不修改数据。"
+}
